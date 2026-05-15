@@ -1,0 +1,26 @@
+# ── SECRETS — NEVER COMMIT ──
+.streamlit/secrets.toml
+
+# ── PYTHON CACHE ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# ── DATABASE (runtime, user data) ──
+*.db
+
+# ── VIRTUAL ENVIRONMENTS ──
+venv/
+.env/
+env/
+.venv/
+
+# ── OS FILES ──
+.DS_Store
+Thumbbs.db
+desktop.ini
+
+# ── JUPYTER TEMP ──
+*.nbconvert.ipynb
